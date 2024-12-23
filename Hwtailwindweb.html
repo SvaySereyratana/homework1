@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      * {
+        font-family: "Hanuman", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-gray-100">
+      <div class="mx-auto max-w-screen-2xl">
+        <div class="py-1 bg-teal-600 flex text-white-500 justify-center gap-10">
+          <button class="p-1 bg-gray-100 rounded-xl">ព័ត៌មាន</button>
+          <p class="py-1">វគ្គសិក្សាថ្មី៖ Java Programming</p>
+        </div>
+        <div class="flex h-16 items-center justify-between">
+          <div class="md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600" href="#">
+              <span class="sr-only">Home</span>
+              <svg
+                class="h-8 mx-1"
+                viewBox="0 0 28 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="hidden md:block">
+            <nav aria-label="Global">
+              <ul class="flex items-left gap-10 text-sm">
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                    >វគ្គសិក្សា
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                  >
+                    ប្លុក
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                  >
+                    វេទិកា
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                  >
+                    អំពីពួកយើង
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                  >
+                    ទាញយកកម្ម
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-teal-500/75"
+                    href="#"
+                  >
+                    ចំណាត់ថ្នាក់
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="flex gap-3 bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow rounded-xl"
+                href="#"
+              >
+                ចូលប្រើ
+                <i class="fa-solid fa-lock"></i>
+              </a>
+
+              <div class="hidden sm:flex">
+                <a
+                  class="mx-1 rounded-xl bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                  href="#"
+                >
+                  បង្កើតគណនី
+                </a>
+              </div>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="w-11/12 mx-auto">
+      <section
+        class="grid grid-cols-1 sm:grid-cols-2 justify-item-center gap-5"
+      >
+        <div>
+          <h1 class="text-teal-500 text-3xl font-bold mt-10">
+            Developers Cambodia
+          </h1>
+          <p class="my-10">
+            គឺជាគេហទំព័រដែលផ្តល់វគ្គបណ្តុះបណ្តាល និងការបង្រៀនតាមអ៊ីនធឺណិត
+            លើប្រធានបទជាច្រើន រួមទាំងអាជីវកម្ម បច្ចេកវិទ្យា ការរចនា ។ល។
+            ពិសេសជាងនេះទៅទៀតយើងក៏មានផ្តល់ជូននូវវិញ្ញាបនបត្រដល់សិស្សនិសិត្ស
+            បន្ទាប់ពីបញ្ចប់វគ្គសិក្សាណានីមួយៗ។
+          </p>
+          <button class="p-2 bg-teal-500 rounded-xl hover:text-gray-500">
+            ក្លាយជាគ្រូបង្រៀន
+          </button>
+          <button
+            class="p-2 border-solid border-2 border-teal-200 rounded-xl hover:text-gray-500"
+          >
+            ក្លាយជាអ្នកសរសេរអត្ថបទ
+          </button>
+        </div>
+        <div class="place-self-center mt-10">
+          <img src="../image/tablet.png" alt="content" />
+          <div>
+            <i
+              class="fa-solid fa-play mt-5 px-2 py-2 bg-gray-100 rounded-full"
+            ></i>
+            <button
+              class="p-1 rounded-xl border-solid border-2 border-teal-200 hover:text-gray-500 mb-10"
+            >
+              រៀនបានគ្រប់ទីកន្លែងជាមួយមេរៀនជាង 2000+
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="grid grid-cols-1 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+      >
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/Shield Security Illustration Logo Design (1).png"
+            alt=" image"
+          />
+          <p class="text-center">Cyber Security</p>
+          <small class="text-center">15 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/cloud computing.png"
+            alt=" image"
+          />
+          <p class="text-center">Cloud Computing</p>
+          <small class="text-center">20 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/Shield Security Illustration Logo Design (2).png"
+            alt=" image"
+          />
+          <p class="text-center">AI</p>
+          <small class="text-center">20 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/Shield Security Illustration Logo Design (1).png"
+            alt=" image"
+          />
+          <p class="text-center">Cyber Security</p>
+          <small class="text-center">15 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/smart homes logo template social media.png"
+            alt=" image"
+          />
+          <p class="text-center">IOT</p>
+          <small class="text-center">15 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/cloud computing.png"
+            alt="image"
+          />
+          <p class="text-center">Cloud Computing</p>
+          <small class="text-center">20 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/Shield Security Illustration Logo Design (2).png"
+            alt="image"
+          />
+          <p class="text-center">AI</p>
+          <small class="text-center">20 វគ្គសិក្សា</small>
+        </div>
+        <div class="justify-items-center bg-gray-100 rounded-xl">
+          <img
+            class="w-1/3 rounded-full p-2 mt-2"
+            src="../image/smart homes logo template social media.png"
+            alt="image"
+          />
+          <p class="text-center">IOT</p>
+          <small class="text-center">15 វគ្គសិក្សា</small>
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        វគ្គសិក្សាដោយឥតគិតថ្លៃ
+      </h2>
+      <section
+        class="grid grid-cols-1 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+      >
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/1.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              ក្លាយជា Back-End Developer Spring Framework
+            </p>
+            <p class="text-sm font-light">Chan Chhaya</p>
+            <p class="text-xs font-light">
+              9 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (100
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/2.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Github & Gitlab Basic to Advanced
+            </p>
+            <p class="text-sm font-light">Kit Tara</p>
+            <p class="text-xs font-light">
+              6 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (20
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/3.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា C++ ពីមូលដ្ឋានគ្រឺះដល់កម្រិតខ្ពស់
+            </p>
+            <p class="text-sm font-light">Sang Sokea</p>
+            <p class="text-xs font-light">
+              46 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (250
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/4.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              Java Programming Language ដោយឥតគិតថ្លៃ
+            </p>
+            <p class="text-sm font-light">Chan Chhaya</p>
+            <p class="text-xs font-light">
+              37 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (32
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/5.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Cyber Security, មានបង្រៀនអំពី Network ផងដែរ
+            </p>
+            <p class="text-sm font-light">Cheat Setha</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (76
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/6.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា DevOps រួមមាន GitHub, Jeckins, Docker, ...
+            </p>
+            <p class="text-sm font-light">Keo Kay</p>
+            <p class="text-xs font-light">
+              48 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (29
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img class="w-full rounded-xl" src="../image/1.png" alt="image" />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Java Programming Language
+            </p>
+            <p class="text-sm font-light">Mich Samrouth</p>
+            <p class="text-xs font-light">
+              4 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (98
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (1).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              Deployment ជាមួយ Docker, GitHub, Kubernetes, ......
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              2 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (34
+              reviews)
+            </p>
+            <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+              ឥតគិតថ្លៃ
+            </small>
+          </div>
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        វគ្គសិក្សាថ្មីៗ
+      </h2>
+      <section
+        class="grid grid-cols-1 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+      >
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images.jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              ក្លាយជា Web Designer ក្នុងរយ:ខ្លីជាមួយវគ្គសិក្សានេះ (Pre-Uni)
+            </p>
+            <p class="text-sm font-light">Sin Many</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                120000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/download (2).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Best JavaScript Language short course....
+            </p>
+            <p class="text-sm font-light">Sin Many</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (4
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                250000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (1).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              Python for Data Science From Basic to Advanced
+            </p>
+            <p class="text-sm font-light">Chan Chhaya</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (3
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                80000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images.jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា C# programming Language short course....
+            </p>
+            <p class="text-sm font-light">Mich Samrouth</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                320000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/download (2).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Spring Framework Microservice Architecture
+            </p>
+            <p class="text-sm font-light">Lun Limhai</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                280000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (1).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា DevOps from Basic to Advanced level course
+            </p>
+            <p class="text-sm font-light">Nuy Mich</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (7
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                100000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (1).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Spring Boot from Basic to Advanced course
+            </p>
+            <p class="text-sm font-light">Ing Muyleang</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (5
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                120000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images.jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Data Science (Basic to Advanced course)
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              3 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                120000៛
+              </small>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        វគ្គសិក្សាដែលបញ្ចុះតម្លៃ
+      </h2>
+      <section
+        class="grid grid-cols-1 2xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+      >
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (5).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >15% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Best JavaScript Language short course....
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              4 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (4
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                100000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>120000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/unnamed.jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >10% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Data Analysis (From Basic to Advanced course)
+            </p>
+            <p class="text-sm font-light">Mom Reaksmey</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (20
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                200000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>300000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (3).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >10% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              Data Analysis Course (From Basic to Advanced course)
+            </p>
+            <p class="text-sm font-light">Son Jessica</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (2000
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                196000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>300000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (5).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >10% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              SEO Course (Part 1 and 2) What is SEO? (Beginner Course)
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              7 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (2000
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                136000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>160000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/unnamed.jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >10% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              From Basic to Advanced of Figma Tool (Advanced Course)
+            </p>
+            <p class="text-sm font-light">Sin Many</p>
+            <p class="text-xs font-light">
+              1 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                130000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>200000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (3).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >15% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              Basic C++ Course សម្រាប់អ្នកចាប់ផ្ដើម coding (Beginner)
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                100000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>190000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (5).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >15% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              JavaScript Language from beginner to advanced
+            </p>
+            <p class="text-sm font-light">Mich Samrouth</p>
+            <p class="text-xs font-light">
+              0 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                100000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>200000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-xl relative">
+          <img
+            class="w-full rounded-xl"
+            src="../image/images (3).jpg"
+            alt="image"
+          />
+          <div class="m-2">
+            <small class="bg-red-600 p-1 rounded-lg absolute top-2 right-2"
+              >10% OFF</small
+            >
+            <p class="text-sm leading-relaxed">
+              វគ្គសិក្សា Data Science (Basic to Advanced course)
+            </p>
+            <p class="text-sm font-light">Sin Sreyphea</p>
+            <p class="text-xs font-light">
+              7 <i class="fa-solid fa-star" style="color: #ffd43b"></i> (0
+              reviews)
+            </p>
+            <div class="flex justify-between">
+              <small class="bg-yellow-200 text-xs font-light p-1 rounded-xl">
+                100000៛
+              </small>
+              <button class="text-gray-800 rounded-full line-through">
+                <small>120000៛</small>
+              </button>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        លក្ខណៈពិសេសរបស់យើង
+      </h2>
+      <section class="grid grid-cols-2 justify-item-center gap-5">
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">For Student</h3>
+          <p class="my-5">
+            Developer Cambodia is a great way for students to learn new skills
+            and knowledge at their own pace and in their own way. With a variety
+            of courses and instructors to choose from, e-learning is a flexible
+            and affordable option for students of all backgrounds.
+          </p>
+        </div>
+        <div class="place-self-center">
+          <img src="../image/student.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <img src="../image/instructor.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">For Teacher</h3>
+          <p class="my-5">
+            Teachers in e-learning are responsible for designing and delivering
+            engaging and interactive learning experiences, assessing student
+            learning and progress, and providing feedback and support.
+          </p>
+          <button class="py-2 px-3 bg-teal-500 rounded-full">
+            GET STARTED
+          </button>
+        </div>
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">
+            For Content Writer
+          </h3>
+          <p class="my-5">
+            A content writer for developers in Cambodia is responsible for
+            creating and distributing high-quality content that is relevant and
+            engaging for developers in the country. This content can include
+            blog posts, articles, white papers, technical documentation, and
+            other types of content.
+          </p>
+          <button class="py-2 px-3 bg-teal-500 rounded-full">
+            GET STARTED
+          </button>
+        </div>
+        <div class="place-self-center">
+          <img src="../image/content-writer.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <img src="../image/forum.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">Global Forum</h3>
+          <p class="my-5">
+            The Global Forum on Education and Learning is a high-level
+            international event that brings together world leaders, education
+            experts, and practitioners to discuss and shape the future of
+            education.
+          </p>
+        </div>
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">
+            Certificate Provider
+          </h3>
+          <p class="my-5">
+            A certificate provider of e-learning is an organization that
+            provides certificates of completion for online courses and training
+            programs. These certificates can be used to demonstrate your skills
+            and knowledge to potential employers or to meet the requirements for
+            certain professional certifications.
+          </p>
+        </div>
+        <div class="place-self-center">
+          <img src="../image/certificate.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <img src="../image/rating.png" alt="content" />
+        </div>
+        <div class="place-self-center">
+          <h3 class="text-teal-500 text-xl font-bold mt-10">Rate and Review</h3>
+          <p class="my-5">
+            A rate and review is a written assessment of a product or service,
+            typically given on a scale of stars or numbers. Rates and reviews
+            are important because it s help other student make informed
+            decisions about what they want to buy. It s also help businesses
+            improve their products and services
+          </p>
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        ទាញយកកម្មវិធីនៅលើទូរស័ព្ទដៃ
+      </h2>
+      <section class="grid grid-cols-2 justify-item-center gap-5">
+        <div class="place-self-center">
+          <p>
+            សិស្សនិសិត្សអាចសិក្សាបានគ្រប់ទីកន្លែងដោយគ្រាន់តែមាននូវទូរស័ព្ទដៃ
+          </p>
+          <img src="../image/Download on.png" alt="image" />
+        </div>
+        <div class="place-self-center">
+          <img src="../image/download.png" alt="" />
+        </div>
+      </section>
+      <h2 class="text-teal-500 my-10 text-xl font-bold text-center">
+        សំណួរដែលគេតែងសួរញឺកញាប់
+      </h2>
+      <section class="grid grid-cols-3">
+        <div>
+          <img src="../image/people.png" alt="image" />
+        </div>
+        <div class="my-3">
+          <button>តើតម្រូវការបច្ចេកទេសអ្វីខ្លះសម្រាប់ការរៀនអនឡាញ?</button>
+          <hr />
+          <p class="text-gray-400 my-3">
+            ការតភ្ជាប់អ៊ីនធឺណិតដែលអាចទុកចិត្តបាន។
+            កុំព្យូទ័រឬឧបករណ៍ចល័តដែលមានកម្មវិធីនិងផ្នែករឹង
+            ដែលបានធ្វើបច្ចុប្បន្នភាពកម្មវិធីរុករកតាមអ៊ីនធឺណិត (ដូចជា Google
+            Chrome ឬ Mozilla Firefox)
+          </p>
+          <hr />
+          <button class="my-3">
+            តើខ្ញុំអាចចូលប្រើប្រាស់ឯកសារវគ្គសិក្សា និងកិច្ចការដោយរបៀបណា?
+          </button>
+          <hr />
+          <button class="my-3">
+            តើខ្ញុំអាចប្រាស្រ័យទាក់ទងជាមួយគ្រូ
+            និងមិត្តរួមថ្នាក់របស់ខ្ញុំដោយរបៀបណា?
+          </button>
+          <hr />
+          <button class="my-3">
+            តើការងាររបស់ខ្ញុំនឹងត្រូវបានចាត់ថ្នាក់ និងវាយតម្លៃដោយរបៀបណា?
+          </button>
+          <hr />
+        </div>
+        <div>
+          <img class="mt-10" src="../image/people1.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-100">
+      <div class="w-11/12 mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8">
+        <div class="grid justify-items-center grid-cols-1 gap-8 lg:grid-cols-4">
+          <div class="justify-items-center place-self-center">
+            <img
+              class="w-1/4"
+              src="../image/logo-white-version (1).webp"
+              alt=""
+            />
+            <p>Developers Cambodia</p>
+            <p class="ml-4 text-sm text-gray-600">
+              A new evolution of learning in Cambodia.
+            </p>
+          </div>
+          <div>
+            <p class="text-lg text-gray-800 py-2">Site Map</p>
+            <ul class="text-sm text-gray-600 leading-7">
+              <li>Home</li>
+              <li>Course</li>
+              <li>Forum</li>
+              <li>Blog</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-lg text-gray-800 py-2">Information</p>
+            <ul class="text-sm text-gray-600 leading-7">
+              <li>Information</li>
+              <li>Our Features</li>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-lg text-gray-800 py-2">Contact US</p>
+            <ul class="text-sm text-gray-600 leading-7">
+              <li>Contact Us</li>
+              <li>Email</li>
+              <li>LinkIn</li>
+              <li>Telegram</li>
+              <li>Fackbook</li>
+            </ul>
+            <div>
+              <i class="fa-brands fa-facebook" style="color: #008efa"></i>
+              <i class="fa-brands fa-instagram" style="color: #fd6262"></i>
+              <i class="fa-brands fa-twitter" style="color: #008efa"></i>
+              <i class="fa-brands fa-telegram" style="color: #008efa"></i>
+            </div>
+          </div>
+        </div>
+        <hr class="border-t-2 border-blue-400 my-4" />
+        <p class="text-center text-gray-500">
+          &copy; 2023. Developers Cambodia All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
